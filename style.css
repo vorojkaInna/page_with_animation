@@ -1,0 +1,141 @@
+@import "assets/font/Geometria/stylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geometria", sans-serif;
+}
+
+.main-section {
+    margin: 80px 20% 0;
+}
+
+.main-title {
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 374px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 10px;
+}
+
+.container-block {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.block1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    max-width: 373px;
+    min-height: 610px;
+    background-image: url("assets/photo/Rectangle 12.png");
+    background-size: cover;
+}
+
+.block2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 373px;
+    min-height: 300px;
+    background-image: url("assets/photo/Rectangle 12.1.png");
+    background-size: cover;
+}
+
+.block3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 373px;
+    min-height: 300px;
+    background-image: url("assets/photo/Rectangle 12.3.png");
+    background-size: cover;
+}
+
+.block4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    max-width: 757px;
+    min-height: 300px;
+    background-image: url("assets/photo/Rectangle 12.2.png");
+    background-size: cover;
+}
+
+.block5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    min-width: 756px;
+    min-height: 300px;
+    background-image: url("assets/photo/Rectangle 12.4.png");
+    background-size: cover;
+}
+
+.block6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    max-width: 385px;
+    min-height: 300px;
+    background-image: url("assets/photo/Rectangle 12.5.png");
+    background-size: cover;
+}
+
+.container-block-title {
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.container-block-subtitle {
+    margin-top: 20px;
+    max-width: 333px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.container-block-button {
+    margin-top: 20px;
+    padding: 20px 28px 15px;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2A94E2;
+    border: 2px solid #2A94E2;
+    border-radius: 5px;
+}
+
+.container-block-appearing {
+    margin-bottom: -177px;
+}
+
+.container-block:hover .container-block-appearing {
+    transition: margin-bottom 0.3s ease;
+    margin-bottom: 0;
+}
